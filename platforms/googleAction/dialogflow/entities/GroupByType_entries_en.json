@@ -1,0 +1,19 @@
+[
+	{
+		"value": "listeners",
+		"synonyms": [
+			"listeners",
+			"listener",
+			"listeners count"
+		]
+	},
+	{
+		"value": "streams",
+		"synonyms": [
+			"streams",
+			"stream",
+			"streaming users",
+			"stream count"
+		]
+	}
+]

@@ -1,0 +1,161 @@
+{
+  "invocation": "orchard music",
+  "inputTypes": [
+    {
+      "name": "GroupByType",
+      "values": [
+        {"value": "listeners", "synonyms": ["listener", "listeners count"]},
+        {"value": "streams", "synonyms": ["stream", "streaming users", "stream count", "strings", "cream"]}
+      ]
+    },
+    {
+      "name": "CountryType",
+      "values": [
+        {"value": "pe", "synonyms": ["peru"]},
+        {"value": "se", "synonyms": ["sweden"]},
+        {"value": "us", "synonyms": ["usa", "united states", "u. s.", "u. s. a.", "your s", "united states of america"]},
+        {"value": "it", "synonyms": ["italy"]},
+        {"value": "cl", "synonyms": ["chile"]},
+        {"value": "nl", "synonyms": ["netherlands"]},
+        {"value": "br", "synonyms": ["brazil"]},
+        {"value": "ar", "synonyms": ["argentina"]},
+        {"value": "de", "synonyms": ["germany"]},
+        {"value": "gb", "synonyms": ["uk", "great britain", "britain", "united kingdom"]},
+        {"value": "mx", "synonyms": ["mexico"]},
+        {"value": "es", "synonyms": ["spain"]},
+        {"value": "fr", "synonyms": ["france", "french", "entrance"]},
+        {"value": "au", "synonyms": ["australia"]},
+        {"value": "ph", "synonyms": ["philippines"]},
+        {"value": "ca", "synonyms": ["canada"]},
+        {"value": "tr", "synonyms": ["turkey"]}
+      ]
+    }, {
+      "name": "ArtistsList",
+      "values": [
+        {"value": "980373", "synonyms": ["Jorja Smith", "Georga Smith", "Georgia Smith"]},
+        {"value": "640523", "synonyms": ["Henrique and Juliano"]},
+        {"value": "990634", "synonyms": ["John Mayer"]},
+        {"value": "915232", "synonyms": ["Ozuna"]},
+        {"value": "544572", "synonyms": ["Gusttavo Lima"]},
+        {"value": "411477", "synonyms": ["Aventura"]},
+        {"value": "571615", "synonyms": ["Wesley Safadão", "Wesley Safadao"]},
+        {"value": "557298", "synonyms": ["Jorge and Mateus"]},
+        {"value": "897364", "synonyms": ["Anuel AA", "Anuel"]},
+        {"value": "912077", "synonyms": ["Brytiago"]},
+        {"value": "481430", "synonyms": ["Vários", "Varios"]},
+        {"value": "800062", "synonyms": ["Zé Neto and Cristiano"]},
+        {"value": "917636", "synonyms": ["BTS"]},
+        {"value": "829126", "synonyms": ["Nio Garcia"]},
+        {"value": "804517", "synonyms": ["Marília Mendonça", "Marilia Mendonsa"]},
+        {"value": "75718", "synonyms": ["Joan Sebastian"]},
+        {"value": "556039", "synonyms": ["Thiaguinho"]}
+      ]
+    },
+    {
+      "name": "RankType",
+      "values": [
+        {"value": "1", "synonyms": ["highest", "first", "most", "top", "first highest"]},
+        {"value": "2", "synonyms": ["second", "second highest", "next highest"]},
+        {"value": "3", "synonyms": ["third", "third highest"]},
+        {"value": "4", "synonyms": ["fourth", "fourth highest"]},
+        {"value": "5", "synonyms": ["fifth", "fifth highest"]}
+      ]
+    }
+  ],
+  "intents": [
+    {
+      "name": "CountsArtistByCountry",
+      "phrases": [
+        "which is the top artist",
+        "which artist has the most number of streams",
+        "which is the top artist in {country}",
+        "which is the most popular artist in {country}",
+        "which artist in {country} has the most number of streams",
+        "in {country} which is the top artist",
+        "in {country} which artist has the most number of streams"
+      ],
+      "inputs": [
+        {"name": "country", "type": "CountryType"}
+      ]
+    },
+    {
+      "name": "CountsInCityByCountry",
+      "phrases": [
+        "which city in {country} has the {rank} {StreamOrListners}",
+        "which city in {country} has the {rank} number of {StreamOrListners}",
+        "which city in {country} has {rank} {StreamOrListners}"
+      ],
+      "inputs": [
+        {"name": "country", "type": "CountryType"},
+        {"name": "rank", "type": "RankType"},
+        {"name": "StreamOrListners", "type": "GroupByType"}
+      ]
+    },
+    {
+      "name": "CountsByCountry",
+      "phrases": [
+        "which country has {rank} {StreamOrListners}",
+        "which country has {rank} number of {StreamOrListners}",
+        "which country has the {rank} {StreamOrListners}",
+        "which country has the {rank} number of {StreamOrListners}"
+      ],
+      "inputs": [
+        {"name": "StreamOrListners", "type": "GroupByType"},
+        {"name": "rank", "type": "RankType"}
+      ]
+    },
+    {
+      "name": "CountsByCity",
+      "phrases": [
+        "which city has {rank} {StreamOrListners}",
+        "which city has {rank} number of {StreamOrListners}",
+        "which city has the {rank} {StreamOrListners}",
+        "which city has the {rank} number of {StreamOrListners}"
+      ],
+      "inputs": [
+        {"name": "StreamOrListners", "type": "GroupByType"},
+        {"name": "rank", "type": "RankType"}
+      ]
+    }
+  ],
+  "dialogflow": {
+    "intents": [
+      {
+        "name": "Default Fallback Intent",
+        "auto": true,
+        "webhookUsed": true,
+        "fallbackIntent": true
+      },
+      {
+        "name": "Default Welcome Intent",
+        "auto": true,
+        "webhookUsed": true,
+        "events": [
+          {
+            "name": "WELCOME"
+          }
+        ]
+      }
+    ]
+  },
+  "alexa": {
+    "interactionModel": {
+      "languageModel": {
+        "intents": [
+          {
+            "name": "AMAZON.CancelIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.HelpIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.StopIntent",
+            "samples": []
+          }
+        ]
+      }
+    }
+  }
+}

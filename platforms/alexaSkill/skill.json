@@ -1,0 +1,29 @@
+{
+	"manifest": {
+		"publishingInformation": {
+			"locales": {
+				"en-US": {
+					"summary": "Sample Short Description",
+					"examplePhrases": [
+						"Alexa open hello world"
+					],
+					"name": "orchard_music",
+					"description": "Sample Full Description"
+				}
+			},
+			"isAvailableWorldwide": true,
+			"testingInstructions": "Sample Testing Instructions.",
+			"category": "EDUCATION_AND_REFERENCE",
+			"distributionCountries": []
+		},
+		"apis": {
+			"custom": {
+				"endpoint": {
+					"sslCertificateType": "Wildcard",
+					"uri": "https://webhook.jovo.cloud/c4d6e5fe-1787-4878-b7f6-f6615b36c751"
+				}
+			}
+		},
+		"manifestVersion": "1.0"
+	}
+}

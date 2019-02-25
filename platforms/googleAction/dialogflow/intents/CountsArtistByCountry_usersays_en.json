@@ -1,0 +1,98 @@
+[
+	{
+		"data": [
+			{
+				"text": "which is the top artist",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "which artist has the most number of streams",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "which is the top artist in ",
+				"userDefined": false
+			},
+			{
+				"text": "country",
+				"userDefined": true,
+				"alias": "country",
+				"meta": "@CountryType"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "which artist in ",
+				"userDefined": false
+			},
+			{
+				"text": "country",
+				"userDefined": true,
+				"alias": "country",
+				"meta": "@CountryType"
+			},
+			{
+				"text": " has the most number of streams",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "in ",
+				"userDefined": false
+			},
+			{
+				"text": "country",
+				"userDefined": true,
+				"alias": "country",
+				"meta": "@CountryType"
+			},
+			{
+				"text": " which is the top artist",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "in ",
+				"userDefined": false
+			},
+			{
+				"text": "country",
+				"userDefined": true,
+				"alias": "country",
+				"meta": "@CountryType"
+			},
+			{
+				"text": " which artist has the most number of streams",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

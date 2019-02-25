@@ -1,0 +1,29 @@
+{
+	"name": "CountsInCityByCountry",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "country",
+					"value": "$country",
+					"dataType": "@CountryType"
+				},
+				{
+					"isList": false,
+					"name": "rank",
+					"value": "$rank",
+					"dataType": "@RankType"
+				},
+				{
+					"isList": false,
+					"name": "StreamOrListners",
+					"value": "$StreamOrListners",
+					"dataType": "@GroupByType"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,125 @@
+[
+	{
+		"value": "pe",
+		"synonyms": [
+			"pe",
+			"peru"
+		]
+	},
+	{
+		"value": "se",
+		"synonyms": [
+			"se",
+			"sweden"
+		]
+	},
+	{
+		"value": "us",
+		"synonyms": [
+			"us",
+			"usa",
+			"united states"
+		]
+	},
+	{
+		"value": "it",
+		"synonyms": [
+			"it",
+			"italy"
+		]
+	},
+	{
+		"value": "cl",
+		"synonyms": [
+			"cl",
+			"chile"
+		]
+	},
+	{
+		"value": "nl",
+		"synonyms": [
+			"nl",
+			"netherlands"
+		]
+	},
+	{
+		"value": "br",
+		"synonyms": [
+			"br",
+			"brazil"
+		]
+	},
+	{
+		"value": "ar",
+		"synonyms": [
+			"ar",
+			"argentina"
+		]
+	},
+	{
+		"value": "de",
+		"synonyms": [
+			"de",
+			"germany"
+		]
+	},
+	{
+		"value": "gb",
+		"synonyms": [
+			"gb",
+			"uk",
+			"great britain",
+			"britain",
+			"united kingdom"
+		]
+	},
+	{
+		"value": "mx",
+		"synonyms": [
+			"mx",
+			"mexico"
+		]
+	},
+	{
+		"value": "es",
+		"synonyms": [
+			"es",
+			"spain"
+		]
+	},
+	{
+		"value": "fr",
+		"synonyms": [
+			"fr",
+			"france"
+		]
+	},
+	{
+		"value": "au",
+		"synonyms": [
+			"au",
+			"australia"
+		]
+	},
+	{
+		"value": "ph",
+		"synonyms": [
+			"ph",
+			"philippines"
+		]
+	},
+	{
+		"value": "ca",
+		"synonyms": [
+			"ca",
+			"canada"
+		]
+	},
+	{
+		"value": "tr",
+		"synonyms": [
+			"tr",
+			"turkey"
+		]
+	}
+]

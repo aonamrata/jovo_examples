@@ -1,0 +1,17 @@
+{
+	"name": "CountsArtistByCountry",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "country",
+					"value": "$country",
+					"dataType": "@CountryType"
+				}
+			]
+		}
+	]
+}

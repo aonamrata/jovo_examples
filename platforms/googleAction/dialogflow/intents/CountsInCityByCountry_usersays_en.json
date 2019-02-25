@@ -1,0 +1,110 @@
+[
+	{
+		"data": [
+			{
+				"text": "which city in ",
+				"userDefined": false
+			},
+			{
+				"text": "country",
+				"userDefined": true,
+				"alias": "country",
+				"meta": "@CountryType"
+			},
+			{
+				"text": " has the ",
+				"userDefined": false
+			},
+			{
+				"text": "rank",
+				"userDefined": true,
+				"alias": "rank",
+				"meta": "@RankType"
+			},
+			{
+				"text": " ",
+				"userDefined": false
+			},
+			{
+				"text": "StreamOrListners",
+				"userDefined": true,
+				"alias": "StreamOrListners",
+				"meta": "@GroupByType"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "which city in ",
+				"userDefined": false
+			},
+			{
+				"text": "country",
+				"userDefined": true,
+				"alias": "country",
+				"meta": "@CountryType"
+			},
+			{
+				"text": " has the ",
+				"userDefined": false
+			},
+			{
+				"text": "rank",
+				"userDefined": true,
+				"alias": "rank",
+				"meta": "@RankType"
+			},
+			{
+				"text": " number of ",
+				"userDefined": false
+			},
+			{
+				"text": "StreamOrListners",
+				"userDefined": true,
+				"alias": "StreamOrListners",
+				"meta": "@GroupByType"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "which city in ",
+				"userDefined": false
+			},
+			{
+				"text": "country",
+				"userDefined": true,
+				"alias": "country",
+				"meta": "@CountryType"
+			},
+			{
+				"text": " has ",
+				"userDefined": false
+			},
+			{
+				"text": "rank",
+				"userDefined": true,
+				"alias": "rank",
+				"meta": "@RankType"
+			},
+			{
+				"text": " ",
+				"userDefined": false
+			},
+			{
+				"text": "StreamOrListners",
+				"userDefined": true,
+				"alias": "StreamOrListners",
+				"meta": "@GroupByType"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

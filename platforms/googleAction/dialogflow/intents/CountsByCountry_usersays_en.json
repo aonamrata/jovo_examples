@@ -1,0 +1,106 @@
+[
+	{
+		"data": [
+			{
+				"text": "which country has ",
+				"userDefined": false
+			},
+			{
+				"text": "rank",
+				"userDefined": true,
+				"alias": "rank",
+				"meta": "@RankType"
+			},
+			{
+				"text": " ",
+				"userDefined": false
+			},
+			{
+				"text": "StreamOrListners",
+				"userDefined": true,
+				"alias": "StreamOrListners",
+				"meta": "@GroupByType"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "which country has ",
+				"userDefined": false
+			},
+			{
+				"text": "rank",
+				"userDefined": true,
+				"alias": "rank",
+				"meta": "@RankType"
+			},
+			{
+				"text": " number of ",
+				"userDefined": false
+			},
+			{
+				"text": "StreamOrListners",
+				"userDefined": true,
+				"alias": "StreamOrListners",
+				"meta": "@GroupByType"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "which country has the ",
+				"userDefined": false
+			},
+			{
+				"text": "rank",
+				"userDefined": true,
+				"alias": "rank",
+				"meta": "@RankType"
+			},
+			{
+				"text": " ",
+				"userDefined": false
+			},
+			{
+				"text": "StreamOrListners",
+				"userDefined": true,
+				"alias": "StreamOrListners",
+				"meta": "@GroupByType"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "which country has the ",
+				"userDefined": false
+			},
+			{
+				"text": "rank",
+				"userDefined": true,
+				"alias": "rank",
+				"meta": "@RankType"
+			},
+			{
+				"text": " number of ",
+				"userDefined": false
+			},
+			{
+				"text": "StreamOrListners",
+				"userDefined": true,
+				"alias": "StreamOrListners",
+				"meta": "@GroupByType"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]
